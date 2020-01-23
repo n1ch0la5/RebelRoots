@@ -1,0 +1,48 @@
+.page-header {
+  margin-bottom: 30px;
+}
+
+header {
+  &:not(.banner) {
+    border-bottom: 1px dotted #ededed;
+    margin-bottom: 30px;
+  }
+
+  &.banner {
+    padding: 30px 0;
+
+    a {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.entry-summary {
+  p {
+    color: #666;
+  }
+}
+
+time {
+  font-size: 0.875rem;
+  color: #999;
+}
+
+.entry-content {
+  margin-bottom: 30px;
+
+  p {
+    color: #666;
+  }
+}
+
+.comment-body {
+  margin: 30px 0;
+  padding: 20px 0;
+  border-bottom: 1px dotted #ededed;
+
+  .comment-content {
+    padding: 15px;
+  }
+}
+
